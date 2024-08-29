@@ -1,0 +1,14 @@
+.baskervville-sc-regular {
+  font-family: "Baskervville SC", serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .baskervville-sc-regular {
+    font-size: 2rem;
+    background-color: rgb(249, 222, 102);
+  }
+}
+  

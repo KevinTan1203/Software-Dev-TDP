@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PSI Data View (API)</title>
+</head>
+<body>
+  <h1>PSI Data View (API)</h1>
+  <script>
+    const requestOptions = {
+      method: "GET",
+      redirect: "follow"
+    };
+    fetch("https://api.data.gov.sg/v1/environment/psi", requestOptions)
+      .then((response) => response.text())
+      .then((result) => console.log(result))
+      .catch((error) => console.error(error));
+  </script>
+</body>
+</html>
