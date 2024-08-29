@@ -1,13 +1,17 @@
 import "./App.css";
-import Greeting from "./component/Greeting";
 import Booking from "./component/Booking";
 import Food from "./component/Food";
-import Navigation from "./component/Navigation";
+import JapFoodMenu from "./component/JapFoodMenu";
 
 function App() {
   return (
     <>
-      <Navigation />
+      <JapFoodMenu
+        home="Home"
+        aboutUs="About Us"
+        menu="Our Menu"
+        contactUs="Contact Us"
+      />
       <Food />
       <Booking />
     </>

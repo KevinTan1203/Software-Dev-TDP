@@ -1,11 +1,11 @@
 import React from "react";
-import "./FoodStyles.css";
+import "./Food.css";
 
 function Booking() {
   return (
     <section id="hero">
       <div id="cta">
-        <a href="#">Make a Booking</a>
+        <a href="/booking">Make a Booking</a>
       </div>
     </section>
   );

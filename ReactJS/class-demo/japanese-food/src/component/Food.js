@@ -1,5 +1,5 @@
 import React from "react";
-import "./FoodStyles.css";
+import "./Food.css";
 
 function Food() {
   return (
